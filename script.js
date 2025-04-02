@@ -24,9 +24,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         if (docSnap.exists()) {
             const data = docSnap.data();
-            document.getElementById("first-name").textContent = data.fname;
-            document.getElementById("last-name").textContent = data.lname;
-            document.getElementById("phone").textContent = data.tel_num;
+            document.getElementById("fname").textContent = data.fname;
+            document.getElementById("lname").textContent = data.lname;
+            document.getElementById("tel_num").textContent = data.tel_num;
             document.getElementById("address").textContent = data.address;
             document.getElementById("school").textContent = data.school;
         } else {
