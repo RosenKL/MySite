@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             document.getElementById("lname").textContent = data.lname;
             document.getElementById("tel_num").textContent = data.tel_num;
             document.getElementById("address").textContent = data.address;
+            document.getElementById("email").textContent = data.email;
             document.getElementById("school").textContent = data.school;
         } else {
             console.log("Документът не съществува!");
