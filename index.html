@@ -10,14 +10,14 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             color: #333;
-            max-width: 600px;
+            max-width: 800px;
             margin: 50px auto;
             padding: 20px;
             background: white;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
+        h1, h2 {
             text-align: center;
             color: #007bff;
         }
@@ -28,14 +28,54 @@
         strong {
             color: #555;
         }
+        .profile-img {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
     </style>
 </head>
 <body>
     <h1>Моето CV</h1>
+    <img src="profile.jpg" alt="Профилна снимка" class="profile-img">
     <p><strong>Име:</strong> <span id="fname"></span></p>
     <p><strong>Фамилия:</strong> <span id="lname"></span></p>
-    <p><strong>Телефон:</strong> <span id="tel_num"></span></p>
+    <p><strong>Телефон:</strong> <span id="tel. num."></span></p>
+    <p><strong>Университет:</strong> <span id="school"></span></p>
     <p><strong>Адрес:</strong> <span id="address"></span></p>
-    <p><strong>Училище:</strong> <span id="school"></span></p>
+    
+    <h2>Професионално резюме</h2>
+    <p>Мотивиран млад студент с интерес към софтуерната разработка и опит в IT сферата. Завърших 3-месечен стаж в Integrated Micro-Electronics, където развих умения за работа в екип и задълбочено разбиране на процесите в IT сектора. Работил съм основно с Java и PHP, както и с Python, HTML, CSS и JavaScript. Имам опит с бази данни (SQL, Oracle) и инструменти като GitHub и Jira.</p>
+    
+    <h2>Образование</h2>
+    <p>Националната професионална гимназия по компютърни технологии и системи, Правец (2019-2024)</p>
+    <p>Технически университет София (2024-до момента), Факултет: Компютърни технологии и системи, Специалност: Информационни технологии в индустрията</p>
+    
+    <h2>Трудов опит</h2>
+    <p><strong>Стажант в IMI | Integrated Micro-Electronics, Ботевград (3 месеца)</strong></p>
+    <p>Работих по сайта и web приложенията в локалния сървър на фирмата, използвайки ColdFusion, HTML, CSS, JavaScript, Oracle и др. Придобих опит в работа в екип и разбиране на IT процесите в индустрията.</p>
+    
+    <h2>Умения</h2>
+    <ul>
+        <li>Програмиране: Java, Python, PHP, C</li>
+        <li>Работа с бази данни: SQL, Oracle</li>
+        <li>Комуникационни умения, работа в екип</li>
+        <li>Аналитично и критично мислене</li>
+    </ul>
+    
+    <h2>Езици</h2>
+    <ul>
+        <li>Български (роден език)</li>
+        <li>Английски (B2)</li>
+    </ul>
+    
+    <h2>Сертификати</h2>
+    <ul>
+        <li>Сертификат от IMI</li>
+        <li>Сертификат от SoftUni за завършен курс по Programming Basics Java (отличен 6.00)</li>
+    </ul>
 </body>
 </html>
